@@ -10,7 +10,7 @@ const router = express.Router();
 router.get("/", (req, res, next) => {
   // res.sendFile(path.join(rootDir, 'views', 'shop.ejs'));
   const products = adminData.products;
-  res.render("shop", { title: "FSW Surya", products: products });
+  res.render("shop", { title: "FSW Best", products: products });
 });
 
 module.exports = router;
